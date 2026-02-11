@@ -1,7 +1,7 @@
 import logging
 from telegram import Update, InlineKeyboardButton, InlineKeyboardMarkup
 from telegram.ext import Application, CommandHandler, MessageHandler, filters, CallbackQueryHandler, ContextTypes
-from fuzzywuzzy import fuzz
+from rapidfuzz import fuzz
 import os
 
 # ============================================
